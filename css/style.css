@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root {
+	--neutral-white: #fff;
+	--neutral-silver: #f5f7fa;
+	--neutral-grey-blue: #abbed1;
+	--neutral-l-grey: #89939e;
+	--neutral-grey: #717171;
+	--neutral-d-grey: #4d4d4d;
+	--neutral-black: #263238;
+	--neutral-white-stroke: #abbed1;
+	--brand-info: #2194f3;
+	--brand-secondary: #263238;
+	--brand-primary: #4caf4f;
+	--shade-s1: #43a046;
+	--shade-s2: #388e3b;
+	--shade-s3: #237d31;
+	--shade-s4: #1b5e1f;
+	--shade-s5: #103e13;
+	--tint-t1: #66bb69;
+	--tint-t2: #81c784;
+	--tint-t3: #a5d6a7;
+	--tint-t4: #c8e6c9;
+	--tint-t5: #e8f5e9;
+	--action-success: #2e7d31;
+	--action-error: #e53835;
+	--action-warning: #fbc02d;
+
+
+    --font-family: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,p,span{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+.button{
+
+    border-radius: 6px;
+    padding: 10px 20px;
+    background: var(--brand-primary);
+   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: var(--neutral-white);
+}
+
+.button-outline{
+    color: var(--brand-primary);
+    background: var( --neutral-white);
+    
+    
+}
+/* COMMON CSS ENDS */
+
+nav #myMenu li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+    padding: 30px 25px;
+    display: inline-block;
+}
+
+nav .authButton a{
+    margin: 0 7px;
+    display: inline-block;
+}
+
+/* BANNER STARTS */
+
+#banner{
+    padding: 96px 0;
+}
+#banner h1{
+
+    
+font-weight: 600;
+font-size: 64px;
+line-height: 119%;
+color: var(--neutral-d-grey);
+
+}
+#banner h1 span{
+    color: var(--brand-primary);
+}
+
+#banner p{
+   margin: 16px 0 32px;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--neutral-grey);
+}
+#banner a{
+    padding: 14px 32px;
+}
+
+
+/* BANNER ENDS */
